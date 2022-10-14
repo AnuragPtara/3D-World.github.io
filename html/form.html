@@ -1,0 +1,64 @@
+<html>
+    <head>
+        <title>form</title>
+        <style>
+          #age{
+            color: rgba(151, 241, 7, 0.904);
+          }
+        </style>
+    </head>
+    <body background="https://d3h2k7ug3o5pb3.cloudfront.net/image/2020-11-23/64e8e750-2d79-11eb-9dcd-8b2ef5358591.jpg" text="blue">
+ <h1 align="center">FORM</h1>
+ <form action="backend.php">
+  <div>
+    NAME:<input type="text" name="myNAME">
+  </div>
+  <br>
+    <div class="form-floating">
+      ROLES:<select class="form-select" id="floatingSelect" aria-label="Floating label select example">
+        <option selected>Roles</option>
+        <option value="1">Photoshop</option>
+        <option value="2">Blender</option>
+        <option value="3">Game Development</option>
+      </select>
+      <label for="floatingSelect"></label>
+    </div>
+  <br>
+    <div class="form-floating mb-3">
+      EMAIL:<input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+      <label for="floatingInput"></label>
+    </div>
+  <br>
+  <div>
+    DATE OF BIRTH:<input type="date" name="myDATE">
+  </div>
+  <br>
+  <div>
+    <div class="form-check form-switch">
+      Are You Eligible?:<input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" checked>
+      <label class="form-check-label" for="flexSwitchCheckChecked"></label>
+    </div>
+    <div id="age">
+    <p>*Aleast 18+</p>
+    </div>
+  </div>
+  <br>
+  <div>
+    Gender:Male<input type="radio" name="myGender">Female<input type="radio" name="myGender">Others<input type="radio" name="myGender">
+  </div>
+  <br>
+  <div>
+    Write about yourself:<textarea name="myText" cols="30" rows="10"></textarea>
+  </div>
+  <br>
+  <div>
+    Phone No:<input type="number" name="myPhone No">
+  </div>
+  <br>
+  <div>
+    <input type="reset"  value="Reset Now">
+  </div>
+  <a href="form1.html"><button type="button" class="btn btn-dark">Submit</button></a>
+ </form>
+ </body>
+ </html>
